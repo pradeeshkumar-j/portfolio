@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import styled, { keyframes } from 'styled-components'
-import PowerButton from '../subComponents/PowerButton'
-import LogoCompoents from '../subComponents/LogoCompoents'
-import SocialIcon from '../subComponents/SocialIcon'
+import PowerButton from '../subComponents/PowerButton.jsx'
+import LogoCompoents from '../subComponents/LogoCompoents.jsx'
+import SocialIcon from '../subComponents/SocialIcon.jsx'
 import { NavLink } from 'react-router-dom'
 import { YinYang } from './Allsvg';
-import Intro from './intro'
+import Intro from './Intro.jsx'
 import { motion } from 'framer-motion'
-
-
-
-
 const MainStyle = styled.div`
 background:${props => props.theme.body};
 width:100vw;
