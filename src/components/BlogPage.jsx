@@ -6,7 +6,6 @@ import LogoCompoents from '../subComponents/LogoCompoents'
 import PowerButton from '../subComponents/PowerButton'
 import {Blogs} from '../data/BlogData'
 import BlogComponent from './BlogComponent'
-import { Anchor } from './Allsvg'
 import AnchorComponent from '../subComponents/Anchor'
 const MainContainer=styled.div`
 background-image:url(${img});

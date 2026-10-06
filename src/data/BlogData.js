@@ -1,3 +1,4 @@
+import Cartifcate from '../assets/Images/Certificate.png'
 export const Blogs = [
     {
         "id": 1,
@@ -30,18 +31,30 @@ export const Blogs = [
         imgSrc: "https://dummyimage.com/600x400/1e293b/ffffff&text=Amazon+Review+Sentiment+Analysis",
         link: "https://github.com/pradeeshkumar-j/Amazon_review_system/tree/main"
     },
-   {
-    id: 4,
-    name: "LeetCode Profile",
-    tags: [
-        "DSA",
-        "Algorithms",
-        "Problem Solving"
-    ],
-    date: "Active",
-    imgSrc: "https://assets.leetcode.com/static_assets/public/images/LeetCode_Sharing.png",
-    link: "https://leetcode.com/u/pradeeshkumar-/"
-},
-   
+    {
+        id: 4,
+        name: "LeetCode Profile",
+        tags: [
+            "DSA",
+            "Algorithms",
+            "Problem Solving"
+        ],
+        date: "Active",
+        imgSrc: "https://assets.leetcode.com/static_assets/public/images/LeetCode_Sharing.png",
+        link: "https://leetcode.com/u/pradeeshkumar-/"
+    },
+     {
+        id: 5,
+        name: "Vidhai Hackthon Certificate",
+        tags: [
+            "Student Innovation",
+            "Entrepreneurship Expo",
+            "SEBI Scam Detection System"
+        ],
+        date: "06-01-2026",
+        imgSrc: Cartifcate,
+        link: "https://leetcode.com/u/pradeeshkumar-/"
+    },
+
 
 ] 
